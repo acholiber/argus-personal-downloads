@@ -1,0 +1,53 @@
+ARGUS PERSONAL — 0.1.0 PILOT 2
+
+MAC: Apple Silicon (M1 or newer), macOS 14 or newer.
+Extract the ZIP. Move ARGUS Personal.app to Applications and open it.
+Intel Macs are not supported by this build.
+
+WINDOWS: 64-bit Windows 10/11, x64 processor.
+Extract the entire ZIP to a folder you own, such as Documents.
+Open ARGUS Personal.exe inside the ARGUS Personal folder.
+Do not run the executable from inside the ZIP or move it without its app folder.
+
+Python and the text/document application dependencies are included.
+Ollama and the AI model files are separate. The local setup page explains how
+ to install Ollama, then download the required models with your approval.
+Plan for at least 16 GB RAM and 15 GB free disk space; speed varies by machine.
+The pilot uses Qwen2.5 7B and nomic-embed-text, not the newer AWS candidates.
+
+PRIVACY
+No remote access, feedback upload, analytics or automatic update check is built
+into this pilot. ARGUS listens only on this computer. Setup downloads are
+initiated by you; conversations/documents are not sent with them. ARGUS runs
+its own local Ollama service with cloud features disabled. This is a software
+boundary, not a claim that every other program on your computer is offline.
+Web search and home-device actions are disabled. Voice setup is not included.
+The interface runs in your normal browser at http://127.0.0.1:8789/personal.
+
+TESTING
+Use nonsensitive examples first. Try unfamiliar real tasks. Check the answers.
+Tell us what you asked, expected, actually got, whether you could repeat it,
+and whether the response time was acceptable. Include failures and refusals.
+Use Personal setup -> Save feedback file. Review the file and send it yourself
+through the channel agreed with the person who gave you ARGUS. Nothing is
+sent by clicking Save. Do not send your data folder or raw logs by default.
+
+UPDATES
+Choose Quit ARGUS in Personal setup before replacing the program.
+Keep the data folder. Replace the complete application with the new release,
+then open it. There is no background updater or remote installation service.
+This release does not change existing household data formats; future schema
+changes need an explicit migration and rollback plan in their release notes.
+Mac data: ~/Library/Application Support/Argus Personal
+Windows data: %LOCALAPPDATA%\Argus Personal
+Back up that folder yourself while ARGUS is closed if you want a local backup.
+Uninstalling the application does not delete this data or the downloaded models.
+
+QUIT
+Closing the browser tab does not stop ARGUS. Use Personal setup -> Quit ARGUS
+ to stop the application and its own model service. No login/startup task is added.
+
+INSTALLATION BLOCKS
+These pilot binaries are not publisher-signed or Apple-notarized. If your system
+blocks them, report the exact message. Do not disable system-wide protections.
+This is a test release, not a production certification or frontier-AI claim.
