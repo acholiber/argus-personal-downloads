@@ -1,2 +1,2 @@
-7eab048280f1fd4510590282889da51c954415e13db83496efdcbea0abe1f7c3  argus-personal-mac-0.1.0-pilot.2.zip
-e9909345a5ee9232e37eb8ce972cd458b491bcb653860c5c1e1d5b7a6b2afbdd  argus-personal-windows-0.1.0-pilot.2.zip
+3264306dfb631874b8c6a49958974cc5c4682ab521a01b6a484c96e66d2af344  argus-personal-mac-0.1.0-pilot.3.zip
+460aaa3b94d8dd4856273aa2578b98b27d8e78e93e3e7bf2dae5556816da1f3a  argus-personal-windows-0.1.0-pilot.3.zip

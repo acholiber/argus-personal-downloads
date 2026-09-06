@@ -1,4 +1,4 @@
-ARGUS PERSONAL — 0.1.0 PILOT 2
+ARGUS PERSONAL — 0.1.0 PILOT 3
 
 MAC: Apple Silicon (M1 or newer), macOS 14 or newer.
 Extract the ZIP. Move ARGUS Personal.app to Applications and open it.
@@ -10,8 +10,18 @@ Open ARGUS Personal.exe inside the ARGUS Personal folder.
 Do not run the executable from inside the ZIP or move it without its app folder.
 
 Python and the text/document application dependencies are included.
-Ollama and the AI model files are separate. The local setup page explains how
- to install Ollama, then download the required models with your approval.
+FIRST-TIME SETUP
+1. Start ARGUS Personal. Its setup page opens in your browser.
+2. Choose Download Ollama, install that separate program, then return to ARGUS.
+   You do not need to select a model inside Ollama.
+3. In ARGUS, click the gold Download local models button. This authorizes the
+   model download. Keep ARGUS open until the status says Ready.
+4. Choose Open ARGUS to start chatting.
+
+The model-download button is on the ARGUS setup page, not in Ollama or this
+text file. While ARGUS is running, open this address on the SAME computer:
+http://127.0.0.1:8789/personal
+
 Plan for at least 16 GB RAM and 15 GB free disk space; speed varies by machine.
 The pilot uses Qwen2.5 7B and nomic-embed-text, not the newer AWS candidates.
 
