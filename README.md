@@ -1,8 +1,8 @@
-# ARGUS Personal — private tester downloads
+# ARGUS Personal — tester downloads
 
 Download the Mac or Windows program from [Releases](https://github.com/acholiber/argus-personal-downloads/releases). Choose the asset for your computer, along with START-HERE.txt. The automatically generated “Source code” archives contain this distribution repository's documentation, not the application.
 
-This repository is private. Testers need a GitHub account and an invitation from the owner before they can download. A copied link alone does not grant access.
+These downloads are public. No GitHub account or invitation is needed. Share this release link: https://github.com/acholiber/argus-personal-downloads/releases/tag/v0.1.0-pilot.3
 
 ## Install
 
